@@ -35,3 +35,17 @@ Previously called TBeta, CCV aims to simplify blob tracking utilizing cameras. I
 
 #### Animo (October 2008) ####
 Animo is a large-scale, distributed computing project which featured 8 different computers and cameras communicating and performing together to create a human-sized stop-motion animation across a wall 50 ft in length. Code Assistant to Zachary Lieberman.
+
+## NOTABLE PROJECTS
+
+#### [Angstom](http://github.com/ArtemTitoulenko/angstrom)
+
+An evented, actor-based server for Ruby the scales horizontally. The purpose of the project initially was to create a framework similar to [Brubeck](http://brubeck.io), however it turned into a journey of self-discovery and reading Ruby internals documentation. The framework turned into an exploration of actor-based systems, using mongrel2, and finding a way to work around the GIL. Angstrom has been on the back burner but at the time it outperformed Sinatra.
+
+#### [Micro Army](https://github.com/ArtemTitoulenko/microarmy)
+
+This is a tool to quickly turn on some number of AWS micro instances and have them perform a given script at the same time. It has been used to load balance different types of services at Codecademy and can be employed for many other tasks. The code is a rip off of the original [Micro Army](http://github.com/j2labs/microarmy) by [James Dennis](http://github.com/j2labs).
+
+#### [C.rb](http://github.com/ArtemTitoulenko/C.rb)
+
+C.rb is a simple time clocker which allows you to just call the program to clock in and just start working. When you're done for the day, just call c.rb again and your time will be logged. You can monitor how many hours you've clocked and the actual log itself.
